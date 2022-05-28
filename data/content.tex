@@ -1,4 +1,14 @@
+% !TeX spellcheck = none
+% !TeX root = ../hgp_beamer_example.tex
+
 \begin{frame}
 	\frametitle{内容提要}
 	\tableofcontents[hideallsubsections]
 \end{frame}
+
+\AtBeginSection[]
+{
+	\begin{frame}<beamer>{内容提要}
+		\tableofcontents[currentsection]
+	\end{frame}
+}
