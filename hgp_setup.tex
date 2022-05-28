@@ -1,0 +1,67 @@
+% !TeX spellcheck = none
+% !TeX root = ../hgp_beamer_example.tex
+
+% Slide基本信息配置
+
+%
+% 标题
+%
+\title{我的 Beamer Template \LaTeX}
+
+%
+% 作者名
+%
+\author{我的名字}
+
+%
+% 机构名称
+%
+\institute[学校简称]{XXXX University}
+
+%
+% 日期
+%
+\date
+
+% Slide主题设置
+
+\usetheme{Frankfurt}
+\usecolortheme{seahorse}
+\usefonttheme{professionalfonts}
+%
+%   \usetheme 主题选择
+%		Frankfurt
+%   \usecolortheme 颜色选择
+%      	seahorse
+%   \usefonttheme 字体选择
+%		default：	默认
+%		professionalfonts： 专业字体
+%		serif：		衬线
+%
+
+% 载入所需的宏包
+
+% 排版支持
+\usepackage{geometry}
+\usepackage{fancyhdr}
+% 中文支持
+\usepackage{ctex}
+% 插入图片
+\usepackage{graphicx}
+% 多图环境
+\usepackage{subfigure}
+% 多文化环境
+\usepackage[english]{babel}
+% Times New Roman的数学环境
+\usepackage{mathptmx}
+% 定理环境
+\usepackage{amsthm}
+% 自定义字体编码
+\usepackage[T1]{fontenc}
+% 浮动体(图片,表格,伪代码)设置,一般设定[H]
+\usepackage{float}
+% 伪算法环境
+\usepackage[ruled,linesnumbered]{algorithm2e}
+
+% 定义所有的图片文件在 figures 子目录下
+\graphicspath{{figures/}}

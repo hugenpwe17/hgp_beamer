@@ -1,0 +1,29 @@
+% !TeX encoding = UTF-8
+% !TeX program = xelatex
+% !TeX spellcheck = none
+
+\documentclass[aspectratio=1610, 11pt, t]{beamer}
+%
+% 界面比例16:10
+% 默认字体大小11pt（小四）
+% t, 默认上对齐（c, 居中; b， 下对齐）
+%
+
+% 论文基本配置，加载宏包等全局配置
+\input{hgp_setup}
+
+\begin{document}
+	
+% 添加封面
+\input{data/title}
+		
+% 添加目录
+\input{data/content}
+
+% 正文内容
+\input{data/chap01}
+\input{data/chap02}
+\input{data/chap03}
+\input{data/chap04}
+	
+\end{document}
